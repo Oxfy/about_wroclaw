@@ -28,7 +28,7 @@ body{
     display: flex;
 }
 
-.opis{
+.detalited_description{
     padding-top:50%;
     height: 230px;
     margin-bottom:25%;
@@ -51,7 +51,7 @@ body{
     text-align: center;
 }
 
-#zoo:hover > .opis{
+#zoo:hover > .detalited_description{
     visibility: visible;
     background-color: rgba(0,0,0,0.7);
     width: 100%;
@@ -67,7 +67,7 @@ body{
     text-align: center;
 }
 
-#museum:hover > .opis{
+#museum:hover > .detalited_description{
     visibility: visible;
     background-color: rgba(0,0,0,0.7);
     width: 100%;
@@ -82,24 +82,24 @@ body{
     text-align: center;
 }
 
-#rynek:hover > .opis{
+#rynek:hover > .detalited_description{
     visibility: visible;
     background-color: rgba(0,0,0,0.7);
     width: 100%;
     height: 57%;
 }
 
-#zdjecie{
+#photo{
     width: 100px;
     height: auto;
     margin-left: 20%;
 }
 
-#ramka{
+#photo_frame{
     padding-top: 8px;
 }
 
-#wizytowka{
+#business_card{
     width: 400px;
     display: flex;
     flex-direction: row;
@@ -112,19 +112,19 @@ body{
     border-right: solid 2px darkblue;
 }
 
-#tytol{
+#title{
     margin: 16px auto 2px;
     height: 20px;
     font-size: 16px;
 }
 
-#imie{
+#name{
     margin: 2px auto;
     font-size: 14px;
     font-weight: bold;
 }
 
-#o_mnie{
+#about_me{
     background-color: rgb(40, 212, 224);
     width: 150px;
     height: 60px;
